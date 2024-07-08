@@ -3,7 +3,7 @@ name: Concurrency PR
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ main,master ]
 
 concurrency: 
   #group: tests-on-pr-${{ github.head_ref }}
